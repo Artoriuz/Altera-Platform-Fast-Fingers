@@ -1,0 +1,92 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 560 264)
+	(text "final" (rect 268 -1 283 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 248 20 260)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 256 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "switcher_external_interface_export[8..0]" (rect 0 0 159 12)(font "Arial" (font_size 8)))
+		(text "switcher_external_interface_export[8..0]" (rect 4 101 244 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 256 112)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "push_buttons_external_interface_export[1..0]" (rect 0 0 179 12)(font "Arial" (font_size 8)))
+		(text "push_buttons_external_interface_export[1..0]" (rect 4 221 268 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 256 232)(line_width 3))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "leds_external_interface_export[7..0]" (rect 0 0 142 12)(font "Arial" (font_size 8)))
+		(text "leds_external_interface_export[7..0]" (rect 4 141 220 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 256 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "seven_segments_external_interface_export[6..0]" (rect 0 0 197 12)(font "Arial" (font_size 8)))
+		(text "seven_segments_external_interface_export[6..0]" (rect 4 181 280 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 256 192)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 241 43 500 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 261 67 540 144)(font "Arial" (color 0 0 0)))
+		(text "switcher_external_interface" (rect 95 83 352 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 107 558 224)(font "Arial" (color 0 0 0)))
+		(text "leds_external_interface" (rect 120 123 378 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 147 558 304)(font "Arial" (color 0 0 0)))
+		(text "seven_segments_external_interface" (rect 45 163 288 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 187 558 384)(font "Arial" (color 0 0 0)))
+		(text "push_buttons_external_interface" (rect 65 203 316 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 227 558 464)(font "Arial" (color 0 0 0)))
+		(text " final " (rect 539 248 1120 506)(font "Arial" ))
+		(line (pt 257 52)(pt 257 76)(line_width 1))
+		(line (pt 258 52)(pt 258 76)(line_width 1))
+		(line (pt 257 92)(pt 257 116)(line_width 1))
+		(line (pt 258 92)(pt 258 116)(line_width 1))
+		(line (pt 257 132)(pt 257 156)(line_width 1))
+		(line (pt 258 132)(pt 258 156)(line_width 1))
+		(line (pt 257 172)(pt 257 196)(line_width 1))
+		(line (pt 258 172)(pt 258 196)(line_width 1))
+		(line (pt 257 212)(pt 257 236)(line_width 1))
+		(line (pt 258 212)(pt 258 236)(line_width 1))
+		(line (pt 256 32)(pt 304 32)(line_width 1))
+		(line (pt 304 32)(pt 304 248)(line_width 1))
+		(line (pt 256 248)(pt 304 248)(line_width 1))
+		(line (pt 256 32)(pt 256 248)(line_width 1))
+		(line (pt 0 0)(pt 560 0)(line_width 1))
+		(line (pt 560 0)(pt 560 264)(line_width 1))
+		(line (pt 0 264)(pt 560 264)(line_width 1))
+		(line (pt 0 0)(pt 0 264)(line_width 1))
+	)
+)

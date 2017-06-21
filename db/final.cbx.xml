@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="final">
+		<CBX_INST_ENTRY INSTANCE_NAME="|final|final_nios2_proc:nios2_proc|final_nios2_proc_nios2_oci:the_final_nios2_proc_nios2_oci|final_nios2_proc_nios2_ocimem:the_final_nios2_proc_nios2_ocimem|final_nios2_proc_ociram_sp_ram_module:final_nios2_proc_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_js71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|final|final_nios2_proc:nios2_proc|final_nios2_proc_register_bank_a_module:final_nios2_proc_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ffg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|final|final_nios2_proc:nios2_proc|final_nios2_proc_register_bank_b_module:final_nios2_proc_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_gfg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|final|final_onchip_memory:onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_hhc1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
