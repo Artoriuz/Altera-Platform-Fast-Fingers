@@ -3,18 +3,18 @@
  <debug showDebugMenu="0" />
  <systemtable>
   <columns>
-   <connections preferredWidth="127" />
+   <connections preferredWidth="47" />
    <irq preferredWidth="34" />
   </columns>
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="388" />
-   <clocksource preferredWidth="388" />
-   <frequency preferredWidth="368" />
+   <clockname preferredWidth="383" />
+   <clocksource preferredWidth="382" />
+   <frequency preferredWidth="363" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Library,Library/Peripherals,Library/Peripherals/Microcontroller Peripherals,Project,Library/University Program/Generic IO,Library/University Program" />
- <window width="1456" height="876" x="-8" y="-8" />
+ <library expandedCategories="Project,Library" />
+ <window width="1440" height="860" x="0" y="0" />
+ <hdlexample language="VERILOG" />
 </preferences>
